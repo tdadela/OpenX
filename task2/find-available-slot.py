@@ -61,8 +61,8 @@ def main():
         meeting_date = times[k - 1]
 
         if times[k - 1] == times[0]:
-            now_without_milisecond = str(times[0])[:19]
-            print(now_without_milisecond)
+            time_without_milisecond = str(times[0])[:19]
+            print(time_without_milisecond)
             break
 
 
